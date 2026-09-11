@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>شوكوريا | شوكولاتة سويسرية وبلجيكية فاخرة في البحرين</title>
+<meta name="description" content="شوكوريا: شوكولاتة سويسرية وبلجيكية فاخرة، بوكسات هدايا وتوزيعات للمناسبات في البحرين. اطلب الآن عبر واتساب.">
+<meta name="theme-color" content="#2E0F05">
+
+<!-- TODO: replace https://www.example.com with the live domain once it is registered -->
+<link rel="canonical" href="https://www.example.com/">
+
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chocoria">
+<meta property="og:locale" content="ar_BH">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="شوكوريا | شوكولاتة سويسرية وبلجيكية فاخرة في البحرين">
+<meta property="og:description" content="شوكوريا: شوكولاتة سويسرية وبلجيكية فاخرة، بوكسات هدايا وتوزيعات للمناسبات في البحرين. اطلب الآن عبر واتساب.">
+<meta property="og:url" content="https://www.example.com/">
+<meta property="og:image" content="https://www.example.com/assets/hero.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="860">
+<meta property="og:image:alt" content="شوكولاتة شوكوريا الفاخرة">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="شوكوريا | شوكولاتة سويسرية وبلجيكية فاخرة في البحرين">
+<meta name="twitter:description" content="شوكوريا: شوكولاتة سويسرية وبلجيكية فاخرة، بوكسات هدايا وتوزيعات للمناسبات في البحرين. اطلب الآن عبر واتساب.">
+<meta name="twitter:image" content="https://www.example.com/assets/hero.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#shop" data-i18n="a11y.skip">تخطَّ إلى تشكيلتنا</a>
+
+<!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
+<header class="site-header" id="siteHeader">
+  <div class="shell site-header__inner">
+    <a class="brand" href="#home" aria-label="شوكوريا — الصفحة الرئيسية" data-i18n-aria="a11y.brand">
+      <img src="assets/logo.png" width="576" height="576" alt="شعار شوكوريا للشوكولاتة السويسرية والبلجيكية" data-i18n-alt="alt.logo">
+    </a>
+
+    <nav class="nav" aria-label="التنقل الرئيسي" data-i18n-aria="a11y.nav">
+      <a href="#home" data-i18n="nav.home">الرئيسية</a>
+      <a href="#shop" data-i18n="nav.shop">الشوكولاتة</a>
+      <a href="#gifts" data-i18n="nav.gifts">الهدايا والتوزيعات</a>
+      <a href="#story" data-i18n="nav.story">قصتنا</a>
+      <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
+    </nav>
+
+    <div class="site-header__tools">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch to English" data-i18n-aria="a11y.lang">EN</button>
+
+      <button class="icon-btn" id="cartToggle" type="button" aria-label="السلة، ٠ منتج" aria-expanded="false" aria-controls="cartDrawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M4 7h16l-1.2 11.1a2 2 0 0 1-2 1.9H7.2a2 2 0 0 1-2-1.9L4 7Z"/>
+          <path d="M8.6 7V5.7a3.4 3.4 0 0 1 6.8 0V7"/>
+        </svg>
+        <span class="cart-count" id="cartCount" hidden>0</span>
+      </button>
+
+      <button class="icon-btn menu-btn" id="menuToggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileNav" data-i18n-aria="a11y.openMenu">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="mobile-nav" id="mobileNav" hidden>
+  <button class="icon-btn mobile-nav__close" id="menuClose" type="button" aria-label="إغلاق القائمة" data-i18n-aria="a11y.closeMenu">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <nav aria-label="التنقل في الجوال" data-i18n-aria="a11y.navMobile">
+    <a href="#home" data-i18n="nav.home">الرئيسية</a>
+    <a href="#shop" data-i18n="nav.shop">الشوكولاتة</a>
+    <a href="#gifts" data-i18n="nav.gifts">الهدايا والتوزيعات</a>
+    <a href="#story" data-i18n="nav.story">قصتنا</a>
+    <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
+  </nav>
+  <a class="mobile-nav__wa" href="https://wa.me/97334041163?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20Chocoria%20%F0%9F%91%8B" target="_blank" rel="noopener" data-i18n="hero.cta2">اطلب عبر واتساب</a>
+</div>
+<div class="scrim" id="scrim" hidden></div>
+
+<main>
+<!-- ══════════════════════════════ HERO ══════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero__ribbon" aria-hidden="true">
+    <!-- Signature element: a ribbon of silky chocolate sweeping through the hero -->
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <defs>
+        <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%"   stop-color="#4A1C0B"/>
+          <stop offset="45%"  stop-color="#5A230D"/>
+          <stop offset="100%" stop-color="#2E0F05"/>
+        </linearGradient>
+        <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%"   stop-color="#C99C58" stop-opacity="0"/>
+          <stop offset="22%"  stop-color="#C99C58" stop-opacity=".85"/>
+          <stop offset="62%"  stop-color="#C99C58" stop-opacity=".35"/>
+          <stop offset="100%" stop-color="#C99C58" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <!-- The band runs low under the copy and sweeps up behind the logo
+           medallion, so the headline and subline always sit on clean
+           Espresso and never cross the gold sheen. -->
+      <g class="ribbon-band">
+        <path fill="url(#silk)" d="M-140 720 C 300 700, 620 620, 980 530 C 1220 470, 1400 390, 1620 330 L 1620 630 C 1400 690, 1220 770, 980 830 C 620 920, 300 1000, -140 1020 Z"/>
+      </g>
+      <path class="ribbon-sheen" fill="none" stroke="url(#sheen)" stroke-width="3" stroke-linecap="round"
+            d="M-140 720 C 300 700, 620 620, 980 530 C 1220 470, 1400 390, 1620 330"/>
+    </svg>
+  </div>
+
+  <div class="shell hero__inner">
+    <div class="hero__badge">
+      <img src="assets/logo.png" width="576" height="576" alt="شعار شوكوريا داخل إطار ذهبي" data-i18n-alt="alt.logoRing" fetchpriority="high">
+    </div>
+
+    <div class="hero__copy">
+      <h1 data-i18n="hero.h1">أكثر من مجرد شوكولاتة</h1>
+      <p class="hero__sub" data-i18n="hero.sub">جودة تجمع بين سحر سويسرا وروعة بلجيكا</p>
+      <div class="hero__actions">
+        <a class="btn btn--gold" href="#shop" data-i18n="hero.cta1">تصفّح الشوكولاتة</a>
+        <a class="btn btn--outline" href="https://wa.me/97334041163?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20Chocoria%20%F0%9F%91%8B" target="_blank" rel="noopener" data-i18n="hero.cta2">اطلب عبر واتساب</a>
+      </div>
+    </div>
+  </div>
+
+  <figure class="hero__photo">
+    <img src="assets/hero.jpg" width="1280" height="860" alt="تشكيلة شوكولاتة شوكوريا الفاخرة" data-i18n-alt="alt.hero">
+  </figure>
+</section>
+
+<!-- ══════════════════════════════ SHOP ══════════════════════════════ -->
+<section class="shop" id="shop">
+  <div class="shell">
+    <h2 data-i18n="shop.h2">تشكيلتنا</h2>
+
+    <div class="filters" role="group" aria-label="تصفية حسب النوع" data-i18n-aria="a11y.filters">
+      <button class="chip is-active" type="button" data-filter="all" aria-pressed="true" data-i18n="shop.all">الكل</button>
+      <button class="chip" type="button" data-filter="pralines" aria-pressed="false" data-i18n="shop.pralines">برالين</button>
+      <button class="chip" type="button" data-filter="truffles" aria-pressed="false" data-i18n="shop.truffles">ترافل</button>
+      <button class="chip" type="button" data-filter="gift-boxes" aria-pressed="false" data-i18n="shop.giftBoxes">بوكسات الهدايا</button>
+      <button class="chip" type="button" data-filter="favors" aria-pressed="false" data-i18n="shop.favors">توزيعات</button>
+    </div>
+
+    <div class="grid" id="productGrid"></div>
+    <p class="grid__empty" id="gridEmpty" hidden data-i18n="shop.noneInFilter">لا توجد منتجات في هذا التصنيف حالياً.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════ GIFTS & FAVORS ══════════════════════════ -->
+<section class="gifts" id="gifts">
+  <div class="gifts__media">
+    <img src="assets/gift-box.jpg" width="900" height="1100" loading="lazy" alt="بوكس هدايا من شوكوريا مجهّز للمناسبات" data-i18n-alt="alt.gift">
+  </div>
+  <div class="gifts__copy">
+    <h2 data-i18n="gifts.h2">هدايا تليق بمناسباتكم</h2>
+    <p data-i18n="gifts.body">نجهّز لكم بوكسات هدايا وتوزيعات خاصة للأعياد والأعراس والمواليد والتخرّج وهدايا الشركات، بالتصميم والكمية التي تناسبكم.</p>
+    <a class="btn btn--gold" id="customBoxBtn" href="https://wa.me/97334041163?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20Chocoria%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%B7%D9%84%D8%A8%20%D8%A8%D9%88%D9%83%D8%B3%20%D9%87%D8%AF%D8%A7%D9%8A%D8%A7%20%D8%AE%D8%A7%D8%B5%20%D9%84%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A9%3A%20" target="_blank" rel="noopener" data-i18n="gifts.cta">اطلب بوكس خاص</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════ STORY ══════════════════════════════ -->
+<section class="story" id="story">
+  <div class="shell story__inner">
+    <div class="story__copy">
+      <h2 data-i18n="story.h2">قصتنا</h2>
+      <!-- [replace with the owner's story] -->
+      <p class="story__lead" data-i18n="story.body">في شوكوريا نختار أجود أنواع الشوكولاتة السويسرية والبلجيكية، ونقدّمها بلمسة فاخرة تناسب لحظاتكم اليومية ومناسباتكم الخاصة.</p>
+
+      <ul class="promises">
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.6 13.9 9h5.7l-4.6 3.4 1.8 5.5-4.8-3.4-4.8 3.4 1.8-5.5L4.4 9h5.7L12 3.6Z"/></svg>
+          <span data-i18n="story.p1">طعم فاخر في كل لحظة</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20.2 5.4 13.6a4.1 4.1 0 0 1 5.8-5.8l.8.8.8-.8a4.1 4.1 0 0 1 5.8 5.8L12 20.2Z"/></svg>
+          <span data-i18n="story.p2">اختيارك دائماً مميز</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.8a8.2 8.2 0 1 1 0 16.4 8.2 8.2 0 0 1 0-16.4Z"/><path d="m8.4 12.2 2.5 2.5 4.7-5.1"/></svg>
+          <span data-i18n="story.p3">جودة سويسرية وبلجيكية</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="story__aside">
+      <p class="story__tagline" lang="en" dir="ltr">More Than Chocolate</p>
+      <p class="story__place" data-i18n="visit.address">حاضنة روزي فود، الرفاعة حجيات، البحرين</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════════ INSTAGRAM ════════════════════════════ -->
+<section class="insta">
+  <div class="shell">
+    <a class="insta__block" href="https://www.instagram.com/chocoria.bh/" target="_blank" rel="noopener">
+      <div class="insta__head">
+        <h2 data-i18n="insta.h2">تابعونا على إنستغرام</h2>
+        <span class="insta__handle" dir="ltr">@chocoria.bh</span>
+      </div>
+      <div class="insta__grid">
+        <img src="assets/instagram/1.jpg" width="640" height="640" loading="lazy" alt="من حساب شوكوريا على إنستغرام: برالين مشكّل" data-i18n-alt="alt.insta1">
+        <img src="assets/instagram/2.jpg" width="640" height="640" loading="lazy" alt="من حساب شوكوريا على إنستغرام: ترافل داكن" data-i18n-alt="alt.insta2">
+        <img src="assets/instagram/3.jpg" width="640" height="640" loading="lazy" alt="من حساب شوكوريا على إنستغرام: بوكس هدايا" data-i18n-alt="alt.insta3">
+        <img src="assets/instagram/4.jpg" width="640" height="640" loading="lazy" alt="من حساب شوكوريا على إنستغرام: شوكولاتة بالبندق" data-i18n-alt="alt.insta4">
+        <img src="assets/instagram/5.jpg" width="640" height="640" loading="lazy" alt="من حساب شوكوريا على إنستغرام: توزيعات مناسبات" data-i18n-alt="alt.insta5">
+        <img src="assets/instagram/6.jpg" width="640" height="640" loading="lazy" alt="من حساب شوكوريا على إنستغرام: حبوب الكاكاو" data-i18n-alt="alt.insta6">
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ VISIT & CONTACT ═══════════════════════════ -->
+<section class="visit" id="contact">
+  <div class="shell visit__inner">
+    <div class="visit__copy">
+      <h2 data-i18n="visit.h2">زورونا</h2>
+
+      <dl class="visit__list">
+        <dt data-i18n="visit.addressLabel">الموقع</dt>
+        <dd data-i18n="visit.address">حاضنة روزي فود، الرفاعة حجيات، البحرين</dd>
+
+        <dt data-i18n="visit.phoneLabel">الهاتف</dt>
+        <dd><a href="tel:+97334041163" dir="ltr">+973 3404 1163</a></dd>
+
+        <dt data-i18n="visit.hoursLabel">أوقات العمل</dt>
+        <!-- TODO: replace with the real opening hours -->
+        <dd data-i18n="visit.hours">[أوقات العمل]</dd>
+
+        <dt data-i18n="visit.instaLabel">إنستغرام</dt>
+        <dd><a href="https://www.instagram.com/chocoria.bh/" target="_blank" rel="noopener" dir="ltr">@chocoria.bh</a></dd>
+      </dl>
+
+      <div class="visit__actions">
+        <a class="btn btn--gold" href="https://wa.me/97334041163?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20Chocoria%20%F0%9F%91%8B" target="_blank" rel="noopener" data-i18n="hero.cta2">اطلب عبر واتساب</a>
+        <a class="btn btn--outline" href="tel:+97334041163" data-i18n="visit.call">اتصلوا بنا</a>
+      </div>
+    </div>
+
+    <!-- TODO: replace this embed with Chocoria's exact Google Maps pin -->
+    <div class="visit__map">
+      <iframe src="https://www.google.com/maps?q=Riffa+Hajiyat+Bahrain&output=embed"
+              title="موقع شوكوريا على الخريطة" data-i18n-title="a11y.map"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ══════════════════════════════ FOOTER ══════════════════════════════ -->
+<footer class="site-footer">
+  <div class="shell site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="assets/logo.png" width="576" height="576" loading="lazy" alt="شعار شوكوريا" data-i18n-alt="alt.logoSmall">
+      <p class="site-footer__tagline" data-i18n="hero.h1">أكثر من مجرد شوكولاتة</p>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="روابط الموقع" data-i18n-aria="a11y.footerNav">
+      <a href="#shop" data-i18n="nav.shop">الشوكولاتة</a>
+      <a href="#gifts" data-i18n="nav.gifts">الهدايا والتوزيعات</a>
+      <a href="#story" data-i18n="nav.story">قصتنا</a>
+      <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
+      <a href="https://www.instagram.com/chocoria.bh/" target="_blank" rel="noopener" dir="ltr">@chocoria.bh</a>
+    </nav>
+
+    <div class="site-footer__legal">
+      <p>© 2026 Chocoria</p>
+      <p class="credit" data-i18n="footer.credit">تصميم الموقع: Shujaat Mallick</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="wa-float" href="https://wa.me/97334041163?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20Chocoria%20%F0%9F%91%8B"
+   target="_blank" rel="noopener" aria-label="تواصل معنا عبر واتساب" data-i18n-aria="a11y.wa">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M12.04 2.2a9.76 9.76 0 0 0-8.3 14.9L2.2 21.8l4.83-1.5A9.76 9.76 0 1 0 12.04 2.2Z" fill="none"/>
+    <path d="M8.9 7.1c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.73.34A3.05 3.05 0 0 0 6.1 9.2c0 1.3.95 2.56 1.08 2.74.13.17 1.85 2.96 4.57 4.03 2.26.89 2.72.71 3.21.67.5-.05 1.6-.65 1.82-1.29.23-.63.23-1.17.16-1.28-.07-.12-.25-.18-.52-.31-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.6.13-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07a7.4 7.4 0 0 1-2.18-1.35 8.2 8.2 0 0 1-1.5-1.88c-.16-.27-.02-.42.12-.55.12-.12.27-.32.4-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.13-.6-1.45-.82-1.98Z"/>
+  </svg>
+</a>
+
+<!-- ══════════════════════════════ CART ══════════════════════════════ -->
+<aside class="cart" id="cartDrawer" aria-labelledby="cartTitle" hidden>
+  <div class="cart__head">
+    <h2 id="cartTitle" data-i18n="cart.title">سلة الطلب</h2>
+    <button class="icon-btn" id="cartClose" type="button" aria-label="إغلاق السلة" data-i18n-aria="a11y.closeCart">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
+  <div class="cart__body">
+    <p class="cart__empty" id="cartEmpty" data-i18n="cart.empty">سلتكم فارغة حتى الآن.</p>
+    <ul class="cart__items" id="cartItems"></ul>
+
+    <div class="cart__total" id="cartTotalRow" hidden>
+      <span data-i18n="cart.subtotal">المجموع</span>
+      <strong id="cartTotal" dir="ltr">0.000</strong>
+    </div>
+
+    <form class="cart__form" id="checkoutForm" novalidate>
+      <div class="field">
+        <label for="custName" data-i18n="cart.name">الاسم</label>
+        <input id="custName" name="custName" type="text" autocomplete="name" required aria-describedby="errName">
+        <p class="field__error" id="errName" hidden></p>
+      </div>
+
+      <fieldset class="field">
+        <legend data-i18n="cart.method">طريقة الاستلام</legend>
+        <div class="radios">
+          <label><input type="radio" name="method" value="pickup" checked> <span data-i18n="cart.pickup">استلام من الموقع</span></label>
+          <label><input type="radio" name="method" value="delivery"> <span data-i18n="cart.delivery">توصيل</span></label>
+        </div>
+      </fieldset>
+
+      <div class="field" id="areaField" hidden>
+        <label for="custArea" data-i18n="cart.area">المنطقة</label>
+        <input id="custArea" name="custArea" type="text" aria-describedby="errArea">
+        <p class="field__error" id="errArea" hidden></p>
+      </div>
+
+      <div class="field">
+        <label for="custNotes" data-i18n="cart.notes">ملاحظات</label>
+        <textarea id="custNotes" name="custNotes" rows="2"></textarea>
+      </div>
+
+      <p class="field__error field__error--form" id="errForm" hidden></p>
+
+      <button class="btn btn--gold btn--block" type="submit" data-i18n="cart.send">أرسل الطلب عبر واتساب</button>
+    </form>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ════════════════════════════ STRUCTURED DATA ════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Chocoria",
+  "alternateName": "شوكوريا",
+  "description": "شوكولاتة سويسرية وبلجيكية فاخرة، بوكسات هدايا وتوزيعات للمناسبات في البحرين.",
+  "url": "https://www.example.com/",
+  "logo": "https://www.example.com/assets/logo.png",
+  "image": "https://www.example.com/assets/hero.jpg",
+  "telephone": "+97334041163",
+  "priceRange": "BD",
+  "currenciesAccepted": "BHD",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rosy Food incubator, Hajiyat",
+    "addressLocality": "Riffa",
+    "addressCountry": "BH"
+  },
+  "sameAs": ["https://www.instagram.com/chocoria.bh/"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "تشكيلة شوكوريا",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "item": { "@type": "Product", "name": "بوكس البرالين الفاخر (12 حبة)", "image": "https://www.example.com/assets/products/praline-box-12.jpg", "description": "تشكيلة مختارة من البرالين بحشوات ناعمة تذوب في الفم.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "6.500", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 2, "item": { "@type": "Product", "name": "برالين البندق", "image": "https://www.example.com/assets/products/hazelnut-pralines.jpg", "description": "بندق محمّص مغلّف بشوكولاتة الحليب الحريرية.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "4.000", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 3, "item": { "@type": "Product", "name": "أكواب الشوكولاتة البيضاء بالكراميل", "image": "https://www.example.com/assets/products/white-caramel-cups.jpg", "description": "شوكولاتة بيضاء بقلب من الكراميل ولمسة ملح خفيفة.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "3.500", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 4, "item": { "@type": "Product", "name": "ترافل الشوكولاتة الداكنة", "image": "https://www.example.com/assets/products/dark-truffles.jpg", "description": "غاناش داكن غني بنسبة كاكاو عالية ومغطّى بمسحوق الكاكاو.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "4.500", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 5, "item": { "@type": "Product", "name": "ترافل الشوكولاتة بالحليب", "image": "https://www.example.com/assets/products/milk-truffles.jpg", "description": "غاناش بالحليب ناعم وهادئ الحلاوة، مثالي مع القهوة.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "4.500", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 6, "item": { "@type": "Product", "name": "بوكس الهدايا الذهبي (24 حبة)", "image": "https://www.example.com/assets/products/gold-gift-box-24.jpg", "description": "بوكس ذهبي بأربع وعشرين حبة مشكّلة، جاهز للإهداء.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "12.000", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 7, "item": { "@type": "Product", "name": "بوكس هدية صغير", "image": "https://www.example.com/assets/products/mini-gift-box.jpg", "description": "هدية صغيرة أنيقة تناسب الشكر واللفتات اللطيفة.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "3.000", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } },
+    { "@type": "ListItem", "position": 8, "item": { "@type": "Product", "name": "توزيعات المناسبات (للحبة)", "image": "https://www.example.com/assets/products/occasion-favors.jpg", "description": "حبّات مغلّفة بأناقة لمناسباتكم، بالكمية التي تختارونها.", "brand": { "@type": "Brand", "name": "Chocoria" }, "offers": { "@type": "Offer", "price": "0.350", "priceCurrency": "BHD", "availability": "https://schema.org/InStock" } } }
+  ]
+}
+</script>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

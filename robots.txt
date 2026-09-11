@@ -1,0 +1,19 @@
+# Chocoria — robots.txt
+#
+# !!  PREVIEW MODE: the whole site is blocked from search engines.
+#     This is deliberate while the prototype sits on a *.netlify.app URL
+#     for client review, so the demo (placeholder prices, [أوقات العمل])
+#     never gets indexed and never competes with the real domain later.
+#
+#     ON LAUNCH DAY: delete the [PREVIEW] block, uncomment the [LIVE]
+#     block, and put the real domain in the Sitemap line.
+
+# ───────── [PREVIEW] delete this block on launch ─────────
+User-agent: *
+Disallow: /
+
+# ───────── [LIVE] uncomment this block on launch ─────────
+# User-agent: *
+# Allow: /
+#
+# Sitemap: https://www.example.com/sitemap.xml

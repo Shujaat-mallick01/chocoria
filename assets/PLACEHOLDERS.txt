@@ -1,0 +1,17 @@
+Chocoria — placeholder images
+=============================
+Every .jpg in this folder is a generated placeholder plate (blush cream,
+thin gold frame, cocoa-pod mark), not a real photo. Replace each file with
+a real photo, keeping the SAME FILENAME, and the site picks it up with no
+code changes.
+
+  hero.jpg            wide hero photo            1280 x 860
+  gift-box.jpg        gift box, portrait          900 x 1100
+  products/<id>.jpg   one square photo per product 800 x 800
+  instagram/1..6.jpg  square feed photos           640 x 640
+
+Product ids come from js/products.js.
+
+logo.png is the REAL Chocoria mark, isolated from the brand flyer. It is
+only 576px wide, so if the original logo file exists, replace logo.png with
+it (transparent background, square) for a crisper result.
