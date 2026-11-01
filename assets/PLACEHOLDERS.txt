@@ -1,16 +1,23 @@
-Chocoria — placeholder images
-=============================
-Every .jpg in this folder is a generated placeholder plate (blush cream,
-thin gold frame, cocoa-pod mark), not a real photo. Replace each file with
-a real photo, keeping the SAME FILENAME, and the site picks it up with no
-code changes.
+Chocoria — site images
+======================
+Real photos (cropped from @chocoria.bh Instagram posts; originals in /refimages):
 
-  hero.jpg            wide hero photo            1280 x 860
-  gift-box.jpg        gift box, portrait          900 x 1100
-  products/<id>.jpg   one square photo per product 800 x 800
-  instagram/1..6.jpg  square feed photos           640 x 640
+  hero.jpg                     Arena Oval bars + boxes      1280 x 860
+  gift-box.jpg                 Hams two-tier gift box        900 x 1100
+  products/arena-oval.jpg      Arena Oval                    800 x 800
+  products/le-gouter-dora.jpg  Le Gouter Dora tin            800 x 800
+  products/le-gouter-bites.jpg Le Gouter Bites               800 x 800
+  products/le-gouter-piano.jpg Le Gouter Piano               800 x 800
+  products/hams-gift-box.jpg   Hams gift box                 800 x 800
+  instagram/1..6.jpg           the six posts, square         640 x 640
 
-Product ids come from js/products.js.
+Still a placeholder (blush plate, gold frame, cocoa-pod mark):
+
+  products/occasion-favors.jpg   replace with a real favors photo, same filename
+
+To swap any photo, keep the SAME FILENAME and size; no code changes needed.
+Product ids come from js/products.js. Prices marked PLACEHOLDER there still
+need confirming with the client (only Arena Oval, BHD 9.500, is from a post).
 
 logo.png is the REAL Chocoria mark, isolated from the brand flyer. It is
 only 576px wide, so if the original logo file exists, replace logo.png with

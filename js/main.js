@@ -95,14 +95,14 @@ const TEXT = {
     'alt.logo': 'شعار شوكوريا للشوكولاتة السويسرية والبلجيكية',
     'alt.logoRing': 'شعار شوكوريا داخل إطار ذهبي',
     'alt.logoSmall': 'شعار شوكوريا',
-    'alt.hero': 'تشكيلة شوكولاتة شوكوريا الفاخرة',
-    'alt.gift': 'بوكس هدايا من شوكوريا مجهّز للمناسبات',
-    'alt.insta1': 'من حساب شوكوريا على إنستغرام: برالين مشكّل',
-    'alt.insta2': 'من حساب شوكوريا على إنستغرام: ترافل داكن',
-    'alt.insta3': 'من حساب شوكوريا على إنستغرام: بوكس هدايا',
-    'alt.insta4': 'من حساب شوكوريا على إنستغرام: شوكولاتة بالبندق',
-    'alt.insta5': 'من حساب شوكوريا على إنستغرام: توزيعات مناسبات',
-    'alt.insta6': 'من حساب شوكوريا على إنستغرام: حبوب الكاكاو'
+    'alt.hero': 'شوكولاتة أرينا أوفال بالويفر مع علبتها الذهبية',
+    'alt.gift': 'بوكس همس بطابقين وشريطة سوداء من شوكوريا',
+    'alt.insta1': 'من حساب شوكوريا على إنستغرام: علبة لو غوتيه دورا',
+    'alt.insta2': 'من حساب شوكوريا على إنستغرام: أرينا أوفال',
+    'alt.insta3': 'من حساب شوكوريا على إنستغرام: بوكس همس',
+    'alt.insta4': 'من حساب شوكوريا على إنستغرام: لو غوتيه بيانو',
+    'alt.insta5': 'من حساب شوكوريا على إنستغرام: أرينا أوفال 39 قطعة',
+    'alt.insta6': 'من حساب شوكوريا على إنستغرام: لو غوتيه بايتس'
   },
 
   en: {
@@ -191,14 +191,14 @@ const TEXT = {
     'alt.logo': 'Chocoria logo — Swiss and Belgian chocolate',
     'alt.logoRing': 'Chocoria logo inside a gold ring',
     'alt.logoSmall': 'Chocoria logo',
-    'alt.hero': 'An assortment of Chocoria chocolates',
-    'alt.gift': 'A Chocoria gift box prepared for an occasion',
-    'alt.insta1': 'From Chocoria on Instagram: assorted pralines',
-    'alt.insta2': 'From Chocoria on Instagram: dark truffles',
-    'alt.insta3': 'From Chocoria on Instagram: a gift box',
-    'alt.insta4': 'From Chocoria on Instagram: hazelnut chocolate',
-    'alt.insta5': 'From Chocoria on Instagram: occasion favors',
-    'alt.insta6': 'From Chocoria on Instagram: cocoa beans'
+    'alt.hero': 'Arena Oval wafer chocolates with their golden box',
+    'alt.gift': 'The two-tier Hams gift box from Chocoria, tied with a black ribbon',
+    'alt.insta1': 'From Chocoria on Instagram: the Le Gouter Dora tin',
+    'alt.insta2': 'From Chocoria on Instagram: Arena Oval',
+    'alt.insta3': 'From Chocoria on Instagram: the Hams gift box',
+    'alt.insta4': 'From Chocoria on Instagram: Le Gouter Piano',
+    'alt.insta5': 'From Chocoria on Instagram: Arena Oval, 39 pieces',
+    'alt.insta6': 'From Chocoria on Instagram: Le Gouter Bites'
   }
 };
 
